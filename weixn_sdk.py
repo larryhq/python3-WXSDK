@@ -54,13 +54,13 @@ class WxPayConf_pub(object):
 
     # =======【基本信息设置】=====================================
     #微信公众号身份的唯一标识。审核通过后，在微信发送的邮件中查看
-    APPID = "wxec95fef060bf7f15"
+    APPID = "your app id"
     # JSAPI接口中获取openid，审核后在公众平台开启开发模式后可查看
-    APPSECRET = "070867529331345ad745c12a45f81075"
+    APPSECRET = "your app secrect"
     # 受理商ID，身份标识
-    MCHID = "10024940"
+    MCHID = "your mch id"
     # 商户支付密钥Key。审核通过后，在微信发送的邮件中查看
-    KEY = "4730D8BDA358B3DED9ADEFA0C5A47180"
+    KEY = "pay api key"
     # =======【异步通知url设置】===================================
     # 异步通知url，商户根据实际开发过程设定
     NOTIFY_URL = "http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php"
